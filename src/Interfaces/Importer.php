@@ -4,7 +4,7 @@
 namespace AcikVeri\Importer\Interfaces;
 
 
-interface ImporterInterface
+interface Importer
 {
 
 }
