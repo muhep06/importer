@@ -1,14 +1,14 @@
 <?php
 
 
-namespace AcikVeri\Importer\JSONParser;
+namespace AcikVeri\Importer\JSONImporter;
 
 
 use AcikVeri\Importer\Interfaces\Importer;
 use GuzzleHttp\Client;
 
 
-class JSONParser implements Importer
+class JSONImporter implements Importer
 {
     private $data;
 
@@ -28,7 +28,7 @@ class JSONParser implements Importer
      * @return $this
      */
     public function loadFromString($data) {
-        $this->data = simplejson_load_string($data);
+        $this->data = json_decode($data);
         return $this;
     }
 }
