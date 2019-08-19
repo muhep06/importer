@@ -1,12 +1,12 @@
 <?php
 
 
-namespace AcikVeri\Importer\XMLParser;
+namespace AcikVeri\Importer\XMLImporter;
 
 
 use GuzzleHttp\Client;
 
-class XMLParser
+class XMLImporter
 {
     private $data;
 
