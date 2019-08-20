@@ -17,6 +17,7 @@
     },
     "require": {
         "guzzlehttp/guzzle": "~6.0",
-        "ext-simplexml": "*"
+        "ext-simplexml": "*",
+        "ext-json": "*"
     }
 }
